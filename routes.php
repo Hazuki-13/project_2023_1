@@ -37,4 +37,9 @@ return[
         'Controllers\homeController',
         'display'
     ],
+
+    '/gallery' => [
+        'Controllers\GalleryController',
+        'grid'
+    ]
 ];
