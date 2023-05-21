@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <title>Site fictif</title>
+
+</head>
+<body>
+    <header>
+        <h1 class="title">Bienvenue</h1>
+
+            <nav class="toolbar">
+                <ul>
+                    <li>Accueil</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                    <li>Qui sommes nous?</li>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- require du $template contenant le nom de la vue concaténé pour accéder aux fichier concerné  -->
+    <?php require $template . '.phtml' ?>
+
+    <footer>
+        <div>
+            <p>Réalisé par Alexandre Angosto</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
